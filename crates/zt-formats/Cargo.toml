@@ -1,0 +1,10 @@
+[package]
+name = "zt-formats"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+thiserror = "2.0.21"
+
+[dev-dependencies]
+zt-vfs = { path = "../zt-vfs" }
